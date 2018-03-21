@@ -125,6 +125,9 @@ section {
 .company.short {
     width: 100%;
 }
+.company.small {
+    width: 60%;
+}
 footer {
     background: #222;
     padding: 20px;
