@@ -68,7 +68,7 @@ p {
     position: relative;
     transition: 0.3s color;
 }
-.button:before {
+.button:before, .button:first-child:before {
     content: "";
     position: absolute;
     z-index: -1;
@@ -81,10 +81,10 @@ p {
     transform-origin: 50% 0;
     transition: 0.3s transform ease-out;
 }
-.button:hover, .button:focus, .button:active {
+.button:hover, .button:focus, .button:active, .button:first-child {
     color: #333;
 }
-.button:hover:before, .button:focus:before, .button:active:before {
+.button:hover:before, .button:focus:before, .button:active:before, .button:first-child:before {
     -webkit-transform: scaleY(1);
     transform: scaleY(1);
 }
