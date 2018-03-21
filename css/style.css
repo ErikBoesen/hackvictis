@@ -48,6 +48,44 @@ h2 {
 h3 {
     font-size: 50px;
 }
+.button-group {
+    margin: 10px;
+}
+.button {
+    color: white;
+    font-size: 20px;
+    padding: 10px 15px;
+    background: rgba(255, 255, 255, 0.3);
+    display: inline-block;
+    text-decoration: none;
+
+    /* Sweep */
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    position: relative;
+    transition: 0.3s color;
+}
+.button:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: white;
+    transform: scaleY(0);
+    transform-origin: 50% 0;
+    transition: 0.3s transform ease-out;
+}
+.button:hover, .button:focus, .button:active {
+    color: #333;
+}
+.button:hover:before, .button:focus:before, .button:active:before {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+}
+
 header ul {
     font-size: 25px;
     background-color: rgba(255, 255, 255, 0.3);
