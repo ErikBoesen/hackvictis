@@ -88,6 +88,12 @@ p {
     -webkit-transform: scaleY(1);
     transform: scaleY(1);
 }
+.button:first-child {
+    color: white;
+}
+.button:first-child:before {
+    background: #da3c3c;
+}
 
 header ul {
     font-size: 25px;
