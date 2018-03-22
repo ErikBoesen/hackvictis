@@ -124,6 +124,7 @@ main {
     background-attachment: fixed;
     background-repeat: no-repeat;
     padding: 30px;
+    color: #222;
 }
 section {
     padding: 30px;
