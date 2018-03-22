@@ -127,6 +127,7 @@ section {
     padding: 30px;
     max-width: 8in;
     margin: 0 auto;
+    background: white;
 }
 .company {
     display: inline-block;
