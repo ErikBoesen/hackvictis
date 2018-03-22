@@ -116,7 +116,11 @@ header img {
     margin-bottom: 10px;
 }
 main {
-    background: white;
+    background-color: white;
+    background-image: url(/img/bg2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     padding: 30px;
 }
 section {
