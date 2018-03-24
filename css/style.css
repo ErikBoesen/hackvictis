@@ -154,7 +154,9 @@ section#faq table {
 }
 .company {
     display: inline-block;
-    margin: 10px;
+    margin: 10px 25px;
+    vertical-align: middle;
+    text-align: center;
 }
 footer {
     background: #222;
