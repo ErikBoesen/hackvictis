@@ -19,9 +19,11 @@
 }
 html, body {
     height: 100%;
+    width: 100%;
 }
 body {
     font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
 }
 #bg {
     background-image: url(/img/bg.jpg);
@@ -136,10 +138,6 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
     margin-bottom: 20px;
 }
-section#faq {
-
-
-}
 section#faq table {
     width: 100%;
     border-collapse: collapse;
@@ -178,4 +176,10 @@ footer :first-child {
 }
 footer #logos img {
     height: 60px;
+}
+
+@media (max-width: 750px) {
+    #bg {
+        width: 100vw;
+    }
 }
