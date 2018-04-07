@@ -26,6 +26,7 @@ body {
     overflow-x: hidden;
 }
 #bg {
+    border-top: solid 6px #da3c3c;
     background-image: url(/img/bg.jpg);
     background-size: cover;
     background-position: bottom;
