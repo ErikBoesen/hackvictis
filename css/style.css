@@ -145,6 +145,7 @@ section#faq table {
 }
 .qa {
     padding: 10px;
+    vertical-align: top;
 }
 .qa strong {
     font-family: 'Quantify', 'Lato', sans-serif;
