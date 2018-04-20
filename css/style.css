@@ -142,10 +142,9 @@ section {
 section#faq table {
     width: 100%;
     border-collapse: collapse;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3) inset;
 }
 .qa {
-    padding: 20px;
+    padding: 10px;
 }
 .qa strong {
     font-family: 'Quantify', 'Lato', sans-serif;
