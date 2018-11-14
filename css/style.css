@@ -160,6 +160,7 @@ section#faq table {
     margin: 10px 25px;
     vertical-align: middle;
     text-align: center;
+    max-width: 85%;
 }
 footer {
     background: #222;
