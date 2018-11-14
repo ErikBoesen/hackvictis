@@ -120,6 +120,10 @@ header {
     align-items: center;
     color: white;
 }
+header h1 {
+    /* Needed for mobile devices where title flows to multiple lines */
+    text-align: center;
+}
 header img {
     margin-bottom: 10px;
 }
